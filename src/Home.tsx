@@ -527,7 +527,7 @@ const Home = (props: HomeProps) => {
         }
     };
 
-
+    
     useEffect(() => {
         (async () => {
             if (wallet) {
@@ -550,14 +550,12 @@ const Home = (props: HomeProps) => {
             <MainContainer>
                 <WalletContainer>
                     <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt=""
-                                                                                                          src="logo.png"/></a></Logo>
+                                                                                                          src="logo1.png"/></a></Logo>
                     <Menu>
-                        <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">Menu 1</a>
+                        <li>
                         </li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 2</a></li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 3</a></li>
+                        <li></li>
+                        <li></li>
                     </Menu>
                     <Wallet>
                         {wallet ?
@@ -570,11 +568,11 @@ const Home = (props: HomeProps) => {
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>My NFT</h2>
+                            <h2>Cuitipi Sweet Candy Drop Preview</h2>
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
-                                src="cool-cats.gif"
+                                src="cp.gif"
                                 alt="NFT To Mint"/></div>
                             <br/>
                             {wallet && isActive && whitelistEnabled && (whitelistTokenBalance > 0) && isBurnToken &&
@@ -658,31 +656,22 @@ const Home = (props: HomeProps) => {
                     </DesContainer>
                     <DesContainer>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 1</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="logo1.png" alt=""></img><GoldTitle>Who we are?</GoldTitle></LogoAligner>
+                            <p>We are new to the NFT collectibles but we are looking to bring something new.</p>
+                            <p>Our community knows that solana low gas prices make it easier to make money.</p>
+                            <p>We offer our members exclusive NFT mints, raffles, community giveaways and more.</p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 2</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="logo1.png" alt=""></img><GoldTitle>Upcoming events</GoldTitle></LogoAligner>
+                            <p>First generation of Cuitipi will be the 5000 Sweet candy drop.</p>
+                            <p>Join the discord to get on the whiite list for dicounts and early purchases.</p>
+                            <p>Free token givaways to mint is coming soon.</p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 3</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="logo1.png" alt=""></img><GoldTitle>Social</GoldTitle></LogoAligner>
+                            <p><a href="https://twitter.com/seanj_prodigy?ref_src=twsrc%5Etfw" data-show-count="false">Follow Cuitipi</a></p>
+                            <p><a href="https://discord.gg/vTK5rww8" target="_blank" rel="noopener noreferrer">Join Discord</a></p>
+                            <p><a href="https://www.youtube.com/channel/UCl-8R3YrXs6e8AzrXrarpnA" target="_blank" rel="noopener noreferrer">Youtube Channel</a></p>
                         </Des>
                     </DesContainer>
                 </MintContainer>

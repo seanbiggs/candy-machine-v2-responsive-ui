@@ -1,10 +1,10 @@
 /* Customize your main colors in :root variables */
 :root {
-  --main-background-color: #343A50;
-  --card-background-color: #51576D;
-  --card-background-lighter-color: #7A7F92;
-  --main-text-color:#F7F6F4;
-  --title-text-color:#3CBA8B;
+  --main-background-color: #4f1bc7;
+  --card-background-color: #93c71b;
+  --card-background-lighter-color: #1bc7a5;
+  --main-text-color:#c71b3d;
+  --title-text-color:#4f1bc7;
 }
 
 body{
@@ -13,7 +13,7 @@ body{
   background-size: cover;*/
 
   font-family: 'Patrick Hand', cursive;
-  font-size: 1.1em;
+  font-size: 1.5em;
 }
 
 h2, p{
